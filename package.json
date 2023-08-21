@@ -1,0 +1,25 @@
+{
+  "name": "@discord/auth",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./build/src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "fix": "xo --fix --prettier",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Discord",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "xo": "^0.55.0"
+  },
+  "xo": {
+    "rules": {
+      "@typescript-eslint/naming-convention": "off",
+      "camelcase": "off"
+    }
+  }
+}
